@@ -89,6 +89,12 @@
         "keyColor": "48;2;179;179;180;30",
         "outputColor": "48;2;179;179;180;30"
     },
+    {
+        "type": "display",
+        "key": "Display:",
+        "keyColor": "48;2;179;179;180;30",
+        "outputColor": "48;2;179;179;180;30"
+    },
     "break",
     {
         "type": "uptime",
