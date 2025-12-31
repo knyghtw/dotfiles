@@ -1,4 +1,4 @@
-#The dotfiles
+# The dotfiles
 
 ## DEPENDENCIES:
 - SwayOSD
