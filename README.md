@@ -1,4 +1,6 @@
-# DEPENDENCIES:
+#The dotfiles
+
+## DEPENDENCIES:
 - SwayOSD
 - kitty
 - nemo
