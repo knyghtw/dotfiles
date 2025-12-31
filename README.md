@@ -2,7 +2,7 @@
 
 ## DEPENDENCIES:
 - otf-font-awesome
-- powerline/fonts
+- [Powerline fonts](https://github.com/powerline/fonts)
 - SwayOSD
 - kitty
 - nemo
