@@ -1,0 +1,46 @@
+(defwindow control_center
+    :monitor 0
+    :geometry (geometry :x "75%" :y "40px" :width "360px")
+    :anchor "top right"
+    :exclusive false
+    :stacking "fg"
+    (box :orientation "v" :class "cc"
+        (wifi)
+        (bluetooth)
+        (media)
+        (slider :label "Brightness" :cmd "brightnessctl s {}%") 
+        (slider :label "Volume" :cmd "wpctl set-volume @DEFAULT_AUDIO_SINK@ {}%")
+    )
+)
+
+(defwidget slider [label cmd]
+    (box :orientation "v"
+        (label :text label)
+        (scale
+            :min 0
+            :max 100
+            :onchange cmd)
+    )
+)
+
+(defwidget media []
+    (box
+        (button :onclick "playerctl previous" "󰒮")
+        (button :onclick "playerctl play-pause" "󰏥")
+        (button :onclick "playerctl next" "󰒭")
+    )
+)
+
+(defwidget wifi []
+    (button
+        :onclick "nmcli radio wifi off || nmcli radio wifi on"
+        "󰖩 Wi-Fi"
+    )
+)
+
+(defwidget bluetooth []
+    (button
+        :onclick "bluetoothctl power off || bluetoothctl power on"
+        "󰂯 Bluetooth"
+    )
+)
