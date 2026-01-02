@@ -178,8 +178,9 @@
         "format-ethernet": "",
         "tooltip-format": "{gwaddr}",
         // "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "Disconnected ⚠",
+        "format-disconnected": "Disconnected ⚠",        
         // "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        "on-click": "nm-connection-editor"
     },
     //"pulseaudio": {
     "wireplumber": {
@@ -224,8 +225,8 @@
 		"reboot": "reboot",
 		"suspend": "systemctl suspend",
 		// "hibernate": "systemctl hibernate"
-        "lock-screen": "hyprlock"
-        // "logout": "logout"
+        "lock-screen": "hyprlock",
+        "logout": "hyprctl dispatch exit"
 	}
     }
 }
