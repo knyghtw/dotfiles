@@ -106,6 +106,14 @@ button:hover {
     margin: 0 4px;
 }
 
+.modules-left {
+    margin-left: 8px;
+}
+
+.modules-right {
+    margin-right: 4px;
+}
+
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
     margin-left: 0;
@@ -125,7 +133,7 @@ button:hover {
 #battery {
     background-color: transparent;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 #battery.charging, #battery.plugged {
@@ -194,7 +202,7 @@ label:focus {
 
 #network {
     background-color: transparent;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 #network.disconnected {
@@ -214,6 +222,7 @@ label:focus {
 #wireplumber {
     background-color: transparent;
     color: #ffffff;
+    font-size: 15px;
 }
 
 #bluetooth {
