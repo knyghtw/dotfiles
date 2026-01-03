@@ -345,9 +345,9 @@ label:focus {
 }
 
 #privacy-item.audio-in {
-    background-color: #1ca000;
+    background-color: #cf5700;
 }
 
 #privacy-item.audio-out {
-    background-color: #0069d4;
+    background-color: #cf5700;
 }
