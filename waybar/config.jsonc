@@ -226,8 +226,8 @@
 	    "menu": "on-click",
 	    "menu-file": "~/.config/waybar/menu.xml",
 	    "menu-actions": {        
-		"shutdown": "shutdown now",
-		"reboot": "reboot",
+		"shutdown": "systemctl poweroff",
+		"reboot": "systemctl reboot",
 		"suspend": "systemctl suspend",
 		// "hibernate": "systemctl hibernate"
         "lock-screen": "hyprlock",
