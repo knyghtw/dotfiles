@@ -238,6 +238,10 @@ label:focus {
     font-size: 24px;
 }
 
+#custom-control_center{
+    font-size: 24px;
+}
+
 #custom-media {
     background-color: #66cc99;
     color: #2a5c45;
@@ -284,20 +288,20 @@ label:focus {
 }
 
 #mpd {
-    background-color: #66cc99;
-    color: #2a5c45;
+    background-color: transparent;
+    color: #ffffff;
 }
 
 #mpd.disconnected {
-    background-color: #f53c3c;
+    background-color: transparent;
 }
 
 #mpd.stopped {
-    background-color: #90b1b1;
+    background-color: transparent;
 }
 
 #mpd.paused {
-    background-color: #51a37a;
+    background-color: transparent;
 }
 
 #language {

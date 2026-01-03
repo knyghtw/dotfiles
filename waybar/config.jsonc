@@ -17,7 +17,7 @@
         "sway/window"	
     ],
     "modules-right": [
-        "mpd",
+        // "mpd",
 	    //"bluetooth",        
         "tray",
         "battery",
@@ -31,8 +31,8 @@
         //"keyboard-state",        
         //"battery#bat2",
         //"clock",                
-        "clock"
-        // "custom/power"
+        "custom/control_center",
+        "clock"        
     ],
     // Modules configuration
     "hyprland/workspaces": {
@@ -229,5 +229,9 @@
         "lock-screen": "hyprlock",
         "logout": "hyprctl dispatch exit"
 	}
+    },
+    "custom/control_center": {
+        "format" : "\udb80\udf5c",
+        "on-click": ""
     }
 }
