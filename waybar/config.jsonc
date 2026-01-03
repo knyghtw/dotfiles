@@ -7,18 +7,18 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        // "hyprland/workspaces",
+        "custom/power",
+        "hyprland/workspaces"
         // "sway/mode",
-        // "sway/scratchpad",
-        // "custom/media"
-        "custom/power"
+        // "sway/scratchpad",                
     ],
     "modules-center": [
         "sway/window"	
     ],
     "modules-right": [
         // "mpd",
-	    //"bluetooth",        
+	    //"bluetooth",       
+        "custom/media", 
         "tray",
         "battery",
         "network",
@@ -205,16 +205,19 @@
         "on-click": "pwvucontrol"
     },
     "custom/media": {
-        "format": "{icon} {text}",
+        "format": "{text}",
+        "escape": true,
         "return-type": "json",
         "max-length": 40,
-        "format-icons": {
-            "spotify": "",
+        "on-click": "playerctl play-pause",
+        "on-click-right": "playerctl stop",
+        "smooth-scrolling-threshold":"10",
+        "on-scroll-up":"playerctl next",
+        "on-scroll-down":"playerctl previous",
+        "format-icons": {            
             "default": "🎜"
-        },
-        "escape": true,
-        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
-        // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
+        },        
+        "exec": "~/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder        
     },
     "custom/power": {
         "format" : "\udb82\udcc7",
