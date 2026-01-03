@@ -9,3 +9,4 @@
 - hypridle
 - hyprlock
 - hyprpolkitagent
+- NetworkManager
