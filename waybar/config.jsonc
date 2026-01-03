@@ -16,8 +16,7 @@
         "sway/window"	
     ],
     "modules-right": [
-        // "mpd",
-	    //"bluetooth",       
+        // "mpd",	    
         "custom/media", 
         "bluetooth",
         "tray",
@@ -98,7 +97,7 @@
         "tooltip-format-disconnected": "MPD (disconnected)"
     },
     "bluetooth": {
-        "format": "\uf294 {status}",
+        "format": "\uf294",
         "format-connected": "\uf294 {device_alias}",
         "format-connected-battery": "\uf294 {device_alias} | {device_battery_percentage}% \udb82\udd49",
         "on-click": "blueberry"

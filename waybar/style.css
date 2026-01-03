@@ -220,7 +220,22 @@ label:focus {
 }
 
 #bluetooth {
+    font-size: large;
     background-color: #2980b9;
+    color: #ffffff;
+}
+
+#bluetooth.on {
+    background-color: #2980b9;
+    color: #ffffff;
+}
+
+#bluetooth.connected {
+    font-size: medium;
+}
+
+#bluetooth.off {
+    background-color: #798084;
     color: #ffffff;
 }
 
