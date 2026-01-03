@@ -19,6 +19,7 @@
         // "mpd",
 	    //"bluetooth",       
         "custom/media", 
+        "bluetooth",
         "tray",
         "battery",
         "network",
@@ -97,10 +98,10 @@
         "tooltip-format-disconnected": "MPD (disconnected)"
     },
     "bluetooth": {
-	"format": "{status}",
-	"format-connected": "{device_alias}",
-	"format-connected-battery": "{device_alias} {device_battery_percentage}%",
-	"on-click": "blueberry",
+        "format": "\uf294 {status}",
+        "format-connected": "\uf294 {device_alias}",
+        "format-connected-battery": "\uf294 {device_alias} | {device_battery_percentage}% \udb82\udd49",
+        "on-click": "blueberry"
     },
     "idle_inhibitor": {
         "format": "{icon}",
@@ -150,13 +151,13 @@
             "critical": 15
         },
         "format": "{capacity}% {icon}",
-        //"format-full": "",
-        "format-charging": "",
-        //"format-plugged": "{capacity}% ",
+        "format-full": "{capacity}% {icon}",
+        "format-charging": "{capacity}%\udb80\udc84",
+        "format-plugged": "{capacity}% ",
         //"format-alt": "{time} {icon}",
         //"format-good": "{capacity}% {icon}", // An empty format will hide the module
         //"format-full": "{capacity}% {icon}",
-        "format-icons": ["", "", "", "", ""]
+        "format-icons": ["\udb80\udc7b", "\udb80\udc7d", "\udb80\udc7f", "\udb80\udc81", "\udb80\udc79"]
     },
     "battery#bat2": {
         "bat": "BAT2"
