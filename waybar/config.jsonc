@@ -31,7 +31,7 @@
         //"keyboard-state",        
         //"battery#bat2",
         //"clock",                
-        "custom/control_center",
+        // "custom/control_center",
         "privacy",
         "clock"        
     ],
@@ -111,7 +111,8 @@
     },
     "tray": {
         // "icon-size": 21,
-        "spacing": 5
+        "spacing": 5,
+        "icons": "\udb80\udf5c"
         //"icons": {
         //   "blueman": "bluetooth",
         //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
