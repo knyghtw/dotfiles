@@ -10,3 +10,4 @@
 - hyprlock
 - hyprpolkitagent
 - NetworkManager
+- NerdFont
