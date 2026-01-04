@@ -98,6 +98,8 @@
     },
     "bluetooth": {
         "format": "\uf294",
+        "format-disabled": "\udb80\udcb2",
+        "format-off": "\udb80\udcb2",
         "format-connected": "\uf294 {device_alias}",
         "format-connected-battery": "\uf294 {device_alias} | {device_battery_percentage}% \udb82\udd49",
         "on-click": "blueberry"
