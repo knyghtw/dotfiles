@@ -18,8 +18,8 @@
     "modules-right": [
         // "mpd",	    
         "custom/media", 
-        "bluetooth",
         "tray",
+        "bluetooth",        
         "battery",
         "network",
         "wireplumber",
