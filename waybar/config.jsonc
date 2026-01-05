@@ -97,7 +97,7 @@
         "tooltip-format-disconnected": "MPD (disconnected)"
     },
     "bluetooth": {
-        "format": "\uf294",
+        "format": "",
         "format-disabled": "\udb80\udcb2",
         "format-off": "\udb80\udcb2",
         "format-connected": "\uf294 {device_alias}",
