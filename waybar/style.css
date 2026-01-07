@@ -239,7 +239,7 @@ label:focus {
 }
 
 #wireplumber.muted {
-    background-color: #f53c3c;
+    background-color: transparent;
 }
 
 #custom-power{
