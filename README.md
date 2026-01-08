@@ -11,3 +11,4 @@
 - hyprpolkitagent
 - NetworkManager
 - NerdFont
+- [waypaper](https://github.com/anufrievroman/waypaper)
