@@ -153,9 +153,9 @@
             "critical": 15
         },
         "format": "{capacity}% {icon}",
-        "format-full": "{capacity}% {icon}",
+        "format-full": "{capacity}% \udb80\udc84",
         "format-charging": "{capacity}%\udb80\udc84",
-        "format-plugged": "{capacity}% ",
+        "format-plugged": "{capacity}% \udb80\udc84",
         //"format-alt": "{time} {icon}",
         //"format-good": "{capacity}% {icon}", // An empty format will hide the module
         //"format-full": "{capacity}% {icon}",
