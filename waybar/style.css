@@ -225,7 +225,7 @@ label:focus {
 }
 
 #bluetooth.on {
-    background-color: #2980b9;
+    background-color: transparent;
     color: #ffffff;
 }
 
@@ -234,7 +234,7 @@ label:focus {
 }
 
 #bluetooth.off {
-    background-color: #798084;
+    background-color: transparent;
     color: #ffffff;
 }
 
