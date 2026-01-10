@@ -12,3 +12,4 @@
 - NetworkManager
 - NerdFont
 - [waypaper](https://github.com/anufrievroman/waypaper)
+- blueberry<sup>AUR</sup>
