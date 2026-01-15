@@ -15,3 +15,4 @@
 - blueberry<sup>AUR</sup>
 - cliphist
 - ocean-sound-theme
+- hyprpaper
