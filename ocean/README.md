@@ -1,1 +1,1 @@
-ln -s /usr/share/ocean
+ln -s /usr/share/sounds/ocean
