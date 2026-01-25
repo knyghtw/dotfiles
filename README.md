@@ -1,7 +1,7 @@
 # The dotfiles
 
 ## Preview
-![Preview Image](/image.png)
+![Preview Image](/image.webp)
 
 ## DEPENDENCIES:
 - otf-font-awesome
