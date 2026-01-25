@@ -1,5 +1,8 @@
 # The dotfiles
 
+## Preview
+![Preview Image](/image.png)
+
 ## DEPENDENCIES:
 - otf-font-awesome
 - [Powerline fonts](https://github.com/powerline/fonts)
