@@ -1,1 +1,0 @@
-ln -s /usr/share/sounds/ocean
