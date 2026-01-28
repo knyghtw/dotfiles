@@ -19,3 +19,4 @@
 - ocean-sound-theme
 - mpvpaper
 - file-roller
+- ttf-roboto
