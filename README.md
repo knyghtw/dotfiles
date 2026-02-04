@@ -19,4 +19,5 @@
 - ocean-sound-theme
 - mpvpaper
 - file-roller
+- 7zip
 - ttf-roboto
