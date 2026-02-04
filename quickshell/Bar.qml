@@ -8,6 +8,7 @@ Scope {
         model: Quickshell.screens;
 
         PanelWindow {
+            color: "transparent"
             required property var modelData
             screen: modelData
 
@@ -17,10 +18,12 @@ Scope {
                 right: true
             }
 
-            implicitHeight: 30
+            implicitHeight: 20
 
             ClockWidget {
-                anchors.centerIn: parent
+                anchors.verticalCenter: parent.verticalCenter
+                anchors.right: parent.right
+                anchors.rightMargin: 8
             }
         }
     }
