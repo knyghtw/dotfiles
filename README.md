@@ -13,11 +13,12 @@
 - hyprlock
 - hyprpolkitagent
 - NetworkManager
-- NerdFont
+- ttf-roboto
+- ttf-roboto-mono-nerd
 - blueberry<sup>AUR</sup>
 - cliphist
 - ocean-sound-theme
-- mpvpaper
+- hyprpaper
 - file-roller
 - 7zip
-- ttf-roboto
+- swaync
