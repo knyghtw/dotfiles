@@ -2,6 +2,8 @@ import QtQuick
 import QtQuick.Layouts
 import Quickshell
 import Quickshell.Io
+import "Modules"
+import "Modules/clock"
 
 Scope {
     Variants {

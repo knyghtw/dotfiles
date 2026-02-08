@@ -17,10 +17,10 @@ RowLayout {
     }
 
     Text {
-        text: UpowerDeviceState.Discharging ? "battery_charging_full" : "battery_6_bar"
+        text: !UPower.onBattery ? "battery_charging_full" : "battery_6_bar"
         color: "white"
         font.pixelSize: 16
-        font.family: "Material Symbols Rounded"        
+        font.family: "Roboto"        
     }
 
     Text {

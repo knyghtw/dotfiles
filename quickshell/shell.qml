@@ -1,6 +1,6 @@
 import Quickshell
-import "modules"
-import "modules/clock"
+import "Bar"
+import "Bar/Modules/clock"
 
 Scope {
     Bar {}
