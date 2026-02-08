@@ -6,8 +6,8 @@ import QtQuick.Layouts
 
 RowLayout {
     spacing: 8
-    anchors.right: parent.right
-    anchors.rightMargin: 8
+    Layout.alignment: Qt.AlignRight
+    Layout.rightMargin: 8
 
     Text {
         text: BluetoothDeviceState.Connected ? "bluetooth" : "bluetooth_disabled"

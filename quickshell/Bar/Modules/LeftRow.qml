@@ -4,8 +4,8 @@ import "clock"
 
 RowLayout {
     spacing: 8
-    anchors.left: parent.left
-    anchors.leftMargin: 8
+    Layout.alignment: Qt.AlignLeft
+    Layout.leftMargin: 8
 
     ClockWidget {}
 }
