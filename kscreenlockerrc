@@ -1,0 +1,8 @@
+[Greeter]
+WallpaperPlugin=org.kde.color
+
+[Greeter][Wallpaper][org.kde.color][General]
+Color=0,128,128
+
+[Daemon]
+LockOnStart=true
